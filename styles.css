@@ -1,0 +1,255 @@
+.topbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .topbar .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  
+  .search-box {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 30px;
+  }
+  
+  .search-btn{
+    background-color: #007aff;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    right: 55px;
+    top: 1px;
+    cursor: pointer;
+  }
+  .filter-btn {
+background-color: #007aff;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    right: 3rem;
+    top: 3px;
+  }
+  
+  .filter-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+
+  #id{
+    background-color: rgb(76, 76, 239);
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .right a{
+    color: black;
+  }
+  .topbar .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .btn-login,
+  .btn-signup {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: #fff;
+    
+  }
+  
+  .btn-signup {
+    background: #ffc107;
+    border: none;
+  }
+  
+  .language-selector {
+    cursor: pointer;
+  }
+  
+  .category-bar {
+    display: flex;
+    gap: 12px;
+    padding: 12px 20px;
+    overflow-x: auto;
+    background: #f5f7fa;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .category-card {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    background: #ddd;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    background-blend-mode: multiply;
+    background-image: url('https://picsum.photos/200/300?random=1');
+  }
+
+  
+  .category-card.new .badge-new {
+    background-color: #ff4081;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .job-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .company {
+    font-weight: bold;
+    color: #444;
+    font-size: 14px;
+  }
+  
+  .job-card h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #0077ff;
+  }
+  
+  .job-card p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 12px;
+    background: #e0e0e0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    align-self: flex-start;
+  }
+  
+  .badge {
+    background-color: #ffeeba;
+    color: #856404;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .badge.blue {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+
+  .job-list {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+.job-list-card {
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  display: flex;
+  padding: 4px 16px;
+  justify-content: space-between;
+}
+.card-header img {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  object-position: center;
+  width: 8rem;
+}
+.card-body {
+  padding: 0 12px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(236, 234, 234);
+  padding: 0 8px;
+  color: rgb(78, 78, 78);
+  font-size: 12px;
+}
+.tag {
+  background-color: rgb(184, 184, 184);
+  padding: 5px;
+  border-radius: 1rem;
+}
+.card-title {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-title h3 {
+  font-size: 24px;
+  margin: 0;
+}
+#hibrida {
+  background-color: rgb(221, 223, 99);
+  padding: 8px;
+  border-radius: 12px;
+}
+#jarak {
+  background-color: rgb(99, 223, 196);
+  padding: 8px;
+  border-radius: 12px;
+}
+#terima {
+  background-color: rgb(99, 149, 223);
+  padding: 8px;
+  border-radius: 12px;
+}
